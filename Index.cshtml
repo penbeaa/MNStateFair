@@ -1,0 +1,240 @@
+@{
+    ViewBag.Title = "Home";
+}
+
+<div class="jumbotron text-center" style="background: linear-gradient(120deg, #2c3e50, #3498db); color: white; border-radius: 10px;">
+    <h1>Welcome to Minnesota State Project</h1>
+    <p class="lead">Explore information about Minnesota, its culture, and attractions.</p>
+</div>
+
+<div class="container">
+
+    <div class="row text-center">
+
+        <div class="col-md-4">
+            <div class="well">
+                <img src="@Url.Content("~/Content/images/nature.jpg")"
+                     class="img-responsive img-rounded"
+                     style="height:200px; width:100%; object-fit:cover;" />
+                <h3>🌲 Nature</h3>
+                <p>Minnesota is known for its 10,000 lakes, forests, and outdoor beauty.</p>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="well">
+                <img src="@Url.Content("~/Content/images/city.jpg")"
+                     class="img-responsive img-rounded"
+                     style="height:200px; width:100%; object-fit:cover;" />
+                <h3>🏙 Cities</h3>
+                <p>Explore Minneapolis, St. Paul, and many vibrant communities.</p>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="well">
+                <img src="@Url.Content("~/Content/images/fair.jpg")"
+                     class="img-responsive img-rounded"
+                     style="height:200px; width:100%; object-fit:cover;" />
+                <h3>🎡 State Fair</h3>
+                <p>One of the largest and most popular state fairs in the U.S.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- MORE ABOUT SECTION -->
+    <div class="panel panel-primary" style="margin-top:40px;">
+
+        <div class="panel-heading text-center">
+            <h3 class="panel-title">More About the Minnesota State Fair</h3>
+        </div>
+
+        <div class="panel-body">
+
+            <div style="text-align:center;">
+                <img src="@Url.Content("~/Content/images/food.jpg")"
+                     class="img-responsive img-rounded"
+                     style="display:inline-block; margin-bottom:15px;" />
+            </div>
+
+            <p>
+                The Minnesota State Fair is one of the largest and most popular state fairs in the United States,
+                attracting millions of visitors each year. It is well known for its wide variety of entertainment,
+                food, shopping, and cultural exhibits that showcase the spirit of Minnesota.
+            </p>
+
+            <p>
+                One of the main highlights of the fair is the large number of vendors. These vendors come from all over
+                and offer many different products including handmade crafts, clothing, artwork, toys, and unique souvenirs.
+                Visitors enjoy walking through the fairgrounds and exploring the many booths and stands that sell creative
+                and one-of-a-kind items.
+            </p>
+
+            <p>
+                The fair is also famous for its food vendors, which offer a huge variety of options. Traditional fair foods
+                like corn dogs, cheese curds, burgers, and BBQ are very popular, but visitors also enjoy unique and creative
+                items such as deep-fried candy bars, pickles, and other special treats that are only found at the fair.
+            </p>
+
+            <p>
+                In addition to food and shopping, the fair features many small knickknack vendors selling souvenirs,
+                handmade jewelry, custom shirts, wood crafts, and decorative items. These products allow visitors to take
+                home a memory of their experience at the fair.
+            </p>
+
+            <p>
+                Overall, the Minnesota State Fair is more than just an event — it is a large celebration of food,
+                culture, entertainment, and community where people can explore, shop, and enjoy unique experiences every year.
+            </p>
+
+        </div>
+    </div>
+
+
+    <div style="margin:60px 0;">
+        <hr style="border-top:3px solid #337ab7; width:70%; margin:auto;" />
+    </div>
+
+    <div class="card"
+         style="width:100%; margin-bottom:50px; box-shadow:0 4px 10px rgba(0,0,0,0.2); border-radius:10px; overflow:hidden;">
+
+        <img src="@Url.Content("~/Content/images/Security.jpg")"
+             class="card-img-top img-responsive"
+             alt="Security Update"
+             style="width:100%; height:600px; object-fit:cover;" />
+
+        <div class="card-header" style="background-color:#337ab7; color:white; padding:15px;">
+            <h3 style="margin:0;">Security Update</h3>
+        </div>
+
+        <div class="card-body" style="padding:20px;">
+
+            <h4 class="card-title">Improved Security Measures</h4>
+
+            <p class="card-text">
+                Since updating our security systems, everything has remained positive.
+                No issues or incidents have been reported, and the new measures continue
+                to improve the safety and reliability of the system.
+            </p>
+
+            <p class="card-text">
+                We have strengthened our platform by implementing enhanced account protection,
+                secure data encryption, and improved monitoring systems designed to detect and
+                prevent unauthorized access. Regular security updates and system maintenance
+                help ensure that our services remain safe, stable, and trustworthy for all users.
+            </p>
+
+            <p class="card-text">
+                Protecting customer privacy is one of our highest priorities. We are committed
+                to safeguarding personal information and ensuring that customer data is handled
+                responsibly and securely. Our team continuously reviews security practices and
+                follows industry standards to maintain a secure environment where users can feel
+                confident and protected while using our services.
+            </p>
+
+            <p class="card-text">
+                As technology continues to evolve, we remain focused on improving our security
+                infrastructure and investing in new solutions that enhance privacy, reliability,
+                and customer trust. We value our customers and believe that maintaining strong
+                security practices is essential to providing the best possible experience.
+            </p>
+
+        </div>
+
+    </div>
+    <div class="card"
+         style="width:100%; margin-bottom:50px; box-shadow:0 4px 10px rgba(0,0,0,0.2); border-radius:10px; overflow:hidden;">
+
+        <img src="@Url.Content("~/Content/images/Vendors.jpg")"
+             class="card-img-top img-responsive"
+             alt="Vendors Update"
+             style="width:100%; height:600px; object-fit:cover;" />
+
+        <div class="card-header" style="background-color:#28a745; color:white; padding:15px;">
+            <h3 style="margin:0;">Vendors Update</h3>
+        </div>
+
+        <div class="card-body" style="padding:20px;">
+
+            <h4 class="card-title">Improved Vendor Experience</h4>
+
+            <p class="card-text">
+                We are continuously working to improve the experience for all vendors by making
+                it easier to register, manage listings, and interact with customers on our platform.
+                Recent updates have streamlined the vendor onboarding process and improved overall usability.
+            </p>
+
+            <p class="card-text">
+                Vendors now benefit from faster product uploads, better inventory management tools,
+                and improved visibility across the platform. These enhancements help businesses reach
+                more customers and operate more efficiently.
+            </p>
+
+            <p class="card-text">
+                We value our vendor community and recognize their important role in providing quality
+                products and services. Our goal is to create a fair, secure, and supportive environment
+                where vendors can grow their business with confidence.
+            </p>
+
+            <p class="card-text">
+                Future updates will continue to focus on improving performance, security, and user experience
+                for vendors, ensuring the platform remains reliable and easy to use for everyone involved.
+            </p>
+
+        </div>
+
+    </div>
+
+    <div class="card"
+         style="width:100%; margin-bottom:50px; box-shadow:0 4px 10px rgba(0,0,0,0.2); border-radius:10px; overflow:hidden;">
+
+        <div class="card-header" style="background-color:#007bff; color:white; padding:15px;">
+            <h3 style="margin:0;">Business Opportunity</h3>
+        </div>
+
+        <div class="card-body" style="padding:20px;">
+
+            <h4 class="card-title">Partner With Us</h4>
+
+            <p class="card-text">
+                We are always open to new business opportunities and partnerships.
+                Please fill out the form below and our team will get back to you.
+            </p>
+
+    
+            <div class="mb-3">
+                <label for="emailInput" class="form-label">Email address</label>
+                <input type="email"
+                       class="form-control"
+                       id="emailInput"
+                       placeholder="name@example.com" />
+            </div>
+
+           
+            <div class="mb-3">
+                <label for="nameInput" class="form-label">Full Name</label>
+                <input type="text"
+                       class="form-control"
+                       id="nameInput"
+                       placeholder="Enter your name" />
+            </div>
+
+            <div class="mb-3">
+                <label for="messageInput" class="form-label">For More Information</label>
+                <textarea class="form-control"
+                          id="messageInput"
+                          rows="5"
+                          placeholder=""></textarea>
+            </div>
+
+          
+            <button class="btn btn-primary">
+                Submit
+            </button>
+
+        </div>
+    </div>
+
+
+</div>
